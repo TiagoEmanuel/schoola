@@ -1,0 +1,2 @@
+# schoola
+django_reddit_inspired_plataform
