@@ -1,0 +1,89 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Games</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'model/css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Schoolbell" rel="stylesheet">
+  </head>
+  <body>
+    <div class="nav">
+      <h3>Schoola</h3>
+      
+    </div>
+    <div class="pimg1">
+        <div class="ptext">
+            <span class="border">
+              <font style="color:white;">Have you ever thought of a reddit for students only?</font><br><br>
+               <a href="#form" style="text-decoration: none;"><input type="submit" name="submit" value="LOGIN">
+                <input type="submit" name="submit" value="SING UP"></a>
+            </span>
+        </div>
+    </div>
+    <section class="section section-light">
+      <h2>So, what is Schoola?</h2>
+      <p>
+       Schoola is nothing more than a "student-only reddit" with many similar features, and also unique, schoola aims to integrate technology into the school environment,
+       enabling increased productivity and communicability between students and teachers.
+      </p>
+    </section>
+    <div class="pimg2">
+        <div class="ptext">
+            <span class="border">
+                <font style="color:white;">Yes, they can work together.</font>
+            </span>
+        </div>
+    </div>
+    <section class="section section-dark">
+      <h2>Looking for tomorrow</h2>
+      <p>
+       Times have changed. Technology invades our daily lives and going backwards is impossible.
+        It is enough to open our minds to the new possibilities that our times offer us. Schoola is an example of this.
+      </p>
+    </section>
+    <div class="pimg3">
+        <div class="ptext">
+            <span class="border">
+                <font style="color:white;">Hey, did we ever convince you?</font>
+            </span>
+        </div>
+    </div>
+    <section class="section section-dark">
+      <h2>Section Three</h2>
+      <p>
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+         sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </section>
+    <div class="pimg4">
+      <br>
+        <h3><font style="color:white;">Register for play!</font></h3>
+      
+        <div class="container" id="form">
+            <form>
+              <label for="fname">First Name</label>
+              <input type="text" name="fname" id="fname" placeholder=" Enter First Name">
+
+              <label for="lname">Last Name</label>
+              <input type="text" name="lname" id="lname" placeholder="Enter Last Name">
+
+              <label for="country">country</label>
+              <select id="country" name="country">
+                  <option value="japan">Japan</option>
+                  <option value="brazil">Brazil</option>
+                  <option value="eua">EUA</option>
+                  <option value="uk">UK</option>
+              </select>
+              <label for="subject">Subject</label>
+              <textarea name="subject" id="subject" placeholder="Write something....." style="height: 200px;"></textarea>
+              <input type="submit" name="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+  </body>
+</html>
